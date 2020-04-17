@@ -1,6 +1,6 @@
 // client side
 
-let socket = io();
+let socket = io(); // from cdn
 socket.on('mouseMoved', (otherMousePos) => {
     newDrawing(otherMousePos);
 })
